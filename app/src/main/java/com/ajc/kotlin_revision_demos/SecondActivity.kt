@@ -34,5 +34,9 @@ class SecondActivity : AppCompatActivity() {
                 }
             }
         }
+
+        
+
+
     }
 }
