@@ -54,4 +54,8 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
     //livedata
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0"
+
+    //Room
+    implementation 'androidx.room:room-ktx:2.1.0'
+    kapt 'androidx.room:room-compiler:2.1.0'
 }
