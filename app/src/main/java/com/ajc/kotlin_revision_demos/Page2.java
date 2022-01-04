@@ -11,6 +11,7 @@ public class Page2 extends AppCompatActivity {
 
     public TextView text2;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
