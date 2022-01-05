@@ -1,7 +1,6 @@
 package com.ajc.kotlin_revision_demos;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.TextView;
 
