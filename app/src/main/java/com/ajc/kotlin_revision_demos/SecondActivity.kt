@@ -17,6 +17,7 @@ class SecondActivity : AppCompatActivity() {
 
         Log.d("SecondActivity", "Second Activity started")
 
+
 //        lifecycleScope.launch {
 //            println("Coroutine started in ${Thread.currentThread().name}")
 //            repeat(500) {
