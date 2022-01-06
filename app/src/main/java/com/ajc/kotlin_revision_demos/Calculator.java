@@ -36,8 +36,8 @@ public class Calculator extends AppCompatActivity {
                 int num2 = Integer.parseInt(editText2.getText().toString());
 
                 int sum = num1 + num2;
-                Intent foo = new Intent(Calculator.this,Page2.class);
-                foo.putExtra("key",sum);
+                Intent foo = new Intent(Calculator.this, Page2.class);
+                foo.putExtra("key", sum);
                 startActivity(foo);
             }
         });

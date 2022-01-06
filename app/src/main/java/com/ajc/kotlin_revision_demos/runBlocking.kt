@@ -5,7 +5,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
-//launch the coroutine on main thread
+//launch the coroutine on com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.main thread
 fun main() = runBlocking {
     launch {
         println("coroutine started")
@@ -15,11 +15,11 @@ fun main() = runBlocking {
     GlobalScope.launch {
 
     }
-    println("main program ends here ${Thread.currentThread().name}")
+    println("com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.main program ends here ${Thread.currentThread().name}")
 }
 
 //added explicit unit return type
-//fun main(): Unit = runBlocking {
+//fun com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.main(): Unit = runBlocking {
 //    launch {
 //        println("started")
 //        delay(1000)

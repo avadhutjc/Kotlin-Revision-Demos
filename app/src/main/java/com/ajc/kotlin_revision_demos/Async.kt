@@ -37,9 +37,9 @@ private suspend fun num2(): Int {
 }
 /*
 num 1 starts
-on which thread num1 is running main
+on which thread num1 is running com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.main
 num 2 starts
-on which thread num1 is running main
+on which thread num1 is running com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.com.ajc.kotlin_revision_demos.main
 num 1 ends
 num 2 ends
 Accepted Result is 15
