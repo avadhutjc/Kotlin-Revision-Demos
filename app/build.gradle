@@ -4,6 +4,7 @@ plugins {
     id 'kotlin-kapt'
     id 'kotlin-android-extensions'
 }
+apply plugin: 'kotlin-android'
 
 
 android {
@@ -58,4 +59,6 @@ dependencies {
     //Room
     implementation 'androidx.room:room-ktx:2.1.0'
     kapt 'androidx.room:room-compiler:2.1.0'
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
