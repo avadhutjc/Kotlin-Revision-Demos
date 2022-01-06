@@ -1,0 +1,81 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ajc.kotlin_revision_demos"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:5:5-33:19
+12        android:allowBackup="true"
+12-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.6.0] /Users/shubhamsmac/.gradle/caches/transforms-3/7cabb0b7df62f3b93c656c79795a54ee/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:10:9-35
+20        android:theme="@style/Theme.KotlinRevisionDemos" >
+20-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:11:9-57
+21        <activity
+21-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:12:9-14:40
+22            android:name="com.ajc.kotlin_revision_demos.Page2"
+22-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:13:13-34
+23            android:exported="false" />
+23-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:14:13-37
+24        <activity
+24-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:15:9-17:40
+25            android:name="com.ajc.kotlin_revision_demos.SecondActivity"
+25-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:16:13-43
+26            android:exported="false" />
+26-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:17:13-37
+27        <activity
+27-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:18:9-20:40
+28            android:name="com.ajc.kotlin_revision_demos.MainActivity2"
+28-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:19:13-42
+29            android:exported="false" />
+29-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:20:13-37
+30        <activity
+30-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:21:9-23:39
+31            android:name="com.ajc.kotlin_revision_demos.MainActivity"
+31-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:22:13-41
+32            android:exported="true" />
+32-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:23:13-36
+33        <activity
+33-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:24:9-32:20
+34            android:name="com.ajc.kotlin_revision_demos.Calculator"
+34-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:25:13-39
+35            android:exported="true" >
+35-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:26:13-36
+36            <intent-filter>
+36-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:27:13-31:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:28:17-69
+37-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:28:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:30:17-77
+39-->/Users/shubhamsmac/KotlinRevisionDemos/app/src/main/AndroidManifest.xml:30:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <service
+43-->[androidx.room:room-runtime:2.1.0] /Users/shubhamsmac/.gradle/caches/transforms-3/d0366c25f57c28fbec687797fc016335/transformed/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+44            android:name="androidx.room.MultiInstanceInvalidationService"
+44-->[androidx.room:room-runtime:2.1.0] /Users/shubhamsmac/.gradle/caches/transforms-3/d0366c25f57c28fbec687797fc016335/transformed/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+45            android:exported="false" />
+45-->[androidx.room:room-runtime:2.1.0] /Users/shubhamsmac/.gradle/caches/transforms-3/d0366c25f57c28fbec687797fc016335/transformed/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+46    </application>
+47
+48</manifest>

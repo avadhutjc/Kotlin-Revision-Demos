@@ -1,0 +1,2 @@
+com/ajc/kotlin_revision_demos/test/BuildConfig.java
+ com.ajc.kotlin_revision_demos.test.BuildConfig

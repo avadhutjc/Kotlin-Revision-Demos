@@ -1,0 +1,9 @@
+com/ajc/kotlin_revision_demos/BuildConfig.java
+ com.ajc.kotlin_revision_demos.BuildConfig
+com/ajc/kotlin_revision_demos/MainActivity2.java
+ com.ajc.kotlin_revision_demos.MainActivity2
+com/ajc/kotlin_revision_demos/Page2.java
+ com.ajc.kotlin_revision_demos.Page2
+com/ajc/kotlin_revision_demos/Calculator.java
+ com.ajc.kotlin_revision_demos.Calculator
+ com.ajc.kotlin_revision_demos.Calculator$1
